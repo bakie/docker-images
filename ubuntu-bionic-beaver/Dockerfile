@@ -5,7 +5,7 @@ RUN apt-get update \
     && apt-get install -y \
        python sudo bash ca-certificates \
        systemd systemd-sysv gpg rsync \
-       aptitude locales ifupdown \ 
+       aptitude locales udev \ 
     && apt-get clean
 
 RUN sed -e '/path-exclude=\/usr\/share\/doc\/*/ s/^#*/#/' -i /etc/dpkg/dpkg.cfg.d/excludes
