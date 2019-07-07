@@ -1,1 +1,1 @@
-# Debian stretch Molecule test image
+# Debian stretch docker image
