@@ -1,1 +1,1 @@
-# Debian stretch docker image
+# Debian buster docker image
