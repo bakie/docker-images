@@ -14,6 +14,15 @@ This repository holds all my dockerfiles for different operating systems.
 
 #### Ubuntu
 * [bionic beaver](ubuntu-bionic-beaver)
+* [focal fossa](ubuntu-focal-fossa)
+
+### Testing it locally
+To test it locally before building it on docker hub, simply run the following inside the directory where the Dockerfile is located.
+```
+$ docker image build -t ${NAME} .
+
+E.g. $ docker image build -t focal-fossa .
+```
 
 ### Adding new image to docker hub
 When creating a new docker image, this must also be configured in [docker hub](https://hub.docker.com).
